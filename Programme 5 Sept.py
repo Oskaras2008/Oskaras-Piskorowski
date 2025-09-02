@@ -1,0 +1,14 @@
+#Author Oskaras Piskorowski
+#Date 1st September 2025
+#Programme Ask user for how much pizzas they started with then ask how much they have eaten, then work out how much is left and present it to the user
+
+pizza_total = input('How much slices were there in total:')
+pizza_total = int(pizza_total)
+
+pizza_eaten = input('how many slices were eaten: ')
+pizza_eaten = int(pizza_eaten)
+
+pizza_left = pizza_total - pizza_eaten
+pizza_left = int(pizza_left)
+
+print('You have', pizza_left ,'slices left')
