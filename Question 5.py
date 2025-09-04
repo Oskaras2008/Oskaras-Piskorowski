@@ -6,19 +6,15 @@
 
 rainy = input('Is it raining? ')
 
-if rainy == 'yes' or 'Yes':
-    windy = input('is it windy? ')
+if rainy == ('yes' or 'Yes'):
+        windy = input('is it windy? ')
+        if windy == ('yes' or 'Yes'):
+            print('It is too windy for an umbrella')         
+        else:
+            print(' Bring an umbrella')
 
-elif (windy == 'yes' or 'Yes') and (rainy == 'yes' or 'Yes'):
-    print('It is too windy for an umbrella')
+else:
+        print('enjoy your day')
     
-elif (rainy == 'yes' or 'Yes') and (windy != 'yes' or 'Yes'):
-    print(' Bring an umbrella')
 
-
-if rainy == ('no' or 'No'):
-    print('enjoy your day')
-    
-# I could not get it to work properly I dont understand
-    
     
