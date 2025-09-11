@@ -5,4 +5,5 @@
 number = int(input('Enter a number: '))
 
 for i in range (1,12):
-    print(i*number)
+    print((i) ,'x', (number),'=',(i*number))
+
