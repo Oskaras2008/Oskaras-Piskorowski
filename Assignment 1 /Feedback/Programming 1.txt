@@ -1,0 +1,35 @@
+programme 4 Sept.py
+
+On lines 11 and 17 you don't need to use int() as the datatype of the numbers is already int from lines 6 and 8.
+
+You could just write: 
+total_one = number_one + number_two 
+
+and leave out total_one = int(total_one)
+
+=================================================================================================================
+
+Programme 5 Sept.py
+
+You don't need line 12 for same reason as above
+
+=================================================================================================================
+ 
+Programme 6 Sept.py
+
+Line 9 is not needed for same reason as above. I won't mention this again but if it doesn't make sense ask.
+
+To see the unintended consequences of doing this run programme 9 with an in put of 1. The output should be 2.204 
+
+=================================================================================================================
+
+
+Question 8 P174.py
+
+If I input 180 cm I should get 5 foot 9 inches approx. Not 5 10
+
+=================================================================================================================
+Question 11 P174.py
+Simple interest calculation is good. I couldn't see the compound interest program.
+
+You code is very good, just be careful that you don't see everything as an int().
