@@ -6,13 +6,13 @@ You could just write:
 total_one = number_one + number_two 
 
 and leave out total_one = int(total_one)
-
+CORRECTED
 =================================================================================================================
 
 Programme 5 Sept.py
 
 You don't need line 12 for same reason as above
-
+CORRECTED
 =================================================================================================================
  
 Programme 6 Sept.py
@@ -33,3 +33,4 @@ Question 11 P174.py
 Simple interest calculation is good. I couldn't see the compound interest program.
 
 You code is very good, just be careful that you don't see everything as an int().
+
