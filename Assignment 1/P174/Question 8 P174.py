@@ -4,12 +4,13 @@
 
 heightcm = float(input('Please enter your height in cm: '))
 
-heightinch = heightcm/2.54
+heightinch = heightcm/2.58
 heightinch = float(heightinch)
 
-heightfoot = heightinch//12
-heightfoot = float(heightfoot)
-remainder = heightinch%12
+heightfoot = heightinch%12
 
-print(heightcm,'cm is',heightfoot,'feet',remainder,'inches')
+
+
+print(heightcm,'cm is',heightfoot,'feet')
+
 
