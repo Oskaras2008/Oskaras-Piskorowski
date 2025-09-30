@@ -9,6 +9,6 @@ pizza_eaten = input('how many slices were eaten: ')
 pizza_eaten = int(pizza_eaten)
 
 pizza_left = pizza_total - pizza_eaten
-pizza_left = int(pizza_left)
 
 print('You have', pizza_left ,'slices left')
+
