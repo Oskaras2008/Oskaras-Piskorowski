@@ -15,3 +15,22 @@ interest = int(interest)
 
 print('In',time,'Years, your interest amoount earned is at $',interest)
 
+
+principal = float(input('Enter the principal in euros'))
+
+interestone = float(input('Enter the interest percentage'))
+
+t = int(input('Enter the number of years'))
+ 
+interest_for_formula = interestone/100
+
+one_plus_i_power_of_t = (1 + interest_for_formula)**t
+
+final_value = principal*one_plus_i_power_of_t
+
+final_interest = final_value - principal
+ 
+print(f'The compound interest goes up to {final_interest} euros')
+ 
+
+
