@@ -8,7 +8,6 @@ number_two = input('Enter another number: ')
 number_two = int(number_two )
 
 total_one = number_one + number_two 
-total_one = int(total_one)
 
 number_three = input('Enter your last number: ')
 number_three = int(number_three)
@@ -17,3 +16,4 @@ total_two= total_one * number_three
 total_two = int(total_two)
 
 print('The calculated result when you multiply your third number by the sum of your first and second number is:', total_two )
+
