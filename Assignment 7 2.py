@@ -3,7 +3,7 @@
 #Write a program to convert Binary to Decimal
 
 b=input('Enter a binary number: ')
-count=0
+count=len(b)
 final=0
 
 for i in b:
@@ -15,5 +15,6 @@ for i in b:
 
 
 print(final)
+
 
     
