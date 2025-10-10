@@ -12,10 +12,11 @@ while c==67:
     if maximum<n:
         secondmax=maximum
         maximum=n
-    else:
+    elif secondmax<n:
         secondmax=n
     count+=1
     if count==number:
         break
 print(secondmax)
     
+
