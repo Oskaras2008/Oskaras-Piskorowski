@@ -17,7 +17,9 @@ print(total)
 
 total_one=0
 for i in x:
-    total_one =total_one+1
-    print(total,i)
+    i=int(i)
+    y=len(x)
+    total_one+=1
     if total_one==1:
         break
+print((y*10)+i)
