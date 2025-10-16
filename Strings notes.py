@@ -49,32 +49,20 @@ variable5 = 'Hello World!'
 #Prints the letter 'e ' with index position -11
 print(variable5[-11])'''
 
+#To find the number of characters in a string you can use the len() function
 
+'''variable6 = 'apple'
+print(len(variable6))'''
 
+#For loop with string
+'''variable7 = 'apple'
+for i in variable7:
+    print(i)'''
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#While loop in a string
+variable8 = 'apple'
+index = 0
+while index< len(variable8):
+    letter=variable8[index]
+    print(letter)
+    index=index+1
