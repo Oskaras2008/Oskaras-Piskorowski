@@ -66,3 +66,23 @@ while index< len(variable8):
     letter=variable8[index]
     print(letter)
     index=index+1
+
+'''variable9 = 'a new string'
+my_substring = variable9[2:5]
+print(my_substring)
+#The strepsize is one by default
+my_substring = variable9[2:5:1]
+print(my_substring)'''
+
+s ='apple'
+#s[0] and s[-len(s)] print the first letter in the string
+print(s[0])
+print(s[-len(s)])
+#s[-1] and s[len(s)-1] print the last letter in the string
+print(s[-1])
+print(s[len(s)-1])
+#s[:] priints the entire string
+print(s[:])
+#s[::-1] prints the sntire string in reverse
+print(s[::-1])
+
