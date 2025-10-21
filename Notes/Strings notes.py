@@ -86,3 +86,8 @@ print(s[:])
 #s[::-1] prints the sntire string in reverse
 print(s[::-1])
 
+user_string = input('Enter a string')
+user_string_uppercase = user_string.upper()
+print(user_string_uppercase)
+
+
