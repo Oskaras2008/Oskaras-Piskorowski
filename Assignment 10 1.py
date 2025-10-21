@@ -30,7 +30,8 @@ print(word_one.isalnum())
 print(word_one.isalpha())
 print(word_one.isdigit())
 print(word_one.index('i'))
-print(word_one.strip('r'))
+print(word_one.strip('drid'))
       
+
 
       
