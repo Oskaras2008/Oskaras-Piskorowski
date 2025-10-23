@@ -21,4 +21,5 @@ while attempt<7:
     if n==67:
         print('Correct')
         break
-    
+
+print('Answer was',number)
