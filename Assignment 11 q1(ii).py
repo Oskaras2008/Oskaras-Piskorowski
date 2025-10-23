@@ -3,10 +3,14 @@
 #Q1. Write a program to reverse a string using:
 #• A while loop
 
-c=1
-
 word = input('Enter a word: ')
-while c==1:
-    c-=1
-    print(word[-1::-1])
+index=-1
+a=''
+while index/-1<=len(word):
+    n=word[index]
+    index-=1
+    a+=n
+    #print(word[-1::-1])
+print(a)
+
     
