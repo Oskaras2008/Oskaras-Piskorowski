@@ -4,14 +4,14 @@
 
 word = 'oskaraspiskorowski'
 result= ['_']*len(word)
-lg = [' ']
+lg = [ ]
 
 turns=0
 
 while turns<15:
     
     guess = str(input('guess a letter : '))
-    print(lg)
+    
     if guess in lg:
         print('You guessed this letter')
         continue
@@ -22,13 +22,16 @@ while turns<15:
         
         if j == guess:
             result[count]=guess
-            print('This letter was in the word')
+            if count<=1:
+                print('This letter was in the word')
+            
         else:
             pass
         count+=1
+    print(lg)
     print(' '.join(result))
     
     
-    
+
 
         
