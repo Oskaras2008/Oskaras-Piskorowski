@@ -2,13 +2,13 @@
 #1/30/2026
 #Hangman game
 
-word = 'oskaraspiskorowski'
+word = 'arsenalnumberone'
 result= ['_']*len(word)
 lg = [ ]
 
-turns=0
+turns=10
 
-while turns<15:
+while turns>0:
     
     guess = str(input('guess a letter : '))
     
@@ -16,22 +16,35 @@ while turns<15:
         print('You guessed this letter')
         continue
     lg.append(guess)
-    turns+=1
-    count = 0
-    for j in word:
+    
+    
         
-        if j == guess:
-            result[count]=guess
-            if count<=1:
-                print('This letter was in the word')
-            
-        else:
-            pass
-        count+=1
+    if guess in word:
+        print('This letter was in the word')
+        for j in range(len(word)):
+        
+            if word[j] == guess:
+                result[j]=guess
+
+    else:
+        turns-=1
+        print('This letter wasnt in the word')
+        
     print(lg)
-    print(' '.join(result))
+    print('Turns left: ',turns)
+    print('Guess the word:',' '.join(result))
+    print('------------------------------------------------')
+    
+    if turns ==0:
+        print('You ran out of words')
+        print('The word was:',word)
+        
+    if '_' not in result:
+        print('you won!!')
+        break 
     
     
 
 
         
+
