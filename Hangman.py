@@ -108,7 +108,7 @@ while turns>0:
 
     
     if turns ==0:
-        print('You ran out of words')
+        print('You ran out of turns')
         print('The word was:',word)
         
     if '_' not in result:
@@ -118,5 +118,6 @@ while turns>0:
 
 
         
+
 
 
